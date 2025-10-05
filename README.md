@@ -37,9 +37,12 @@ Figure -02 HALF Subtractor
 **Truthtable**
 
 HALF ADDER
+
 <img width="426" height="282" alt="half adder" src="https://github.com/user-attachments/assets/5b99f3ea-a371-4145-b9b9-ec3b2d59e1a5" />
 
+
 HALF SUBTRACTOR
+
 <img width="415" height="316" alt="half subractor" src="https://github.com/user-attachments/assets/126baf12-f1b0-4ba2-bf51-98444d191f07" />
 
 
