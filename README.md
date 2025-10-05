@@ -18,7 +18,8 @@ Half adder is a combinational circuit that performs simple addition of two binar
 
 Sum = A’B+AB’ =A ⊕ B Carry = AB
 
-![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/bd4a0b2c-cdbc-4184-ab08-81578f121e1f)
+<img width="476" height="448" alt="388822100-8372e670-4886-48bb-8369-820568a64d54" src="https://github.com/user-attachments/assets/66e85358-67bd-4c2f-8daa-3407b280a612" />
+
 
 Figure -01 HALF ADDER
 
@@ -35,8 +36,10 @@ Figure -02 HALF Subtractor
 
 **Truthtable**
 
+HALF ADDER
 <img width="426" height="282" alt="half adder" src="https://github.com/user-attachments/assets/5b99f3ea-a371-4145-b9b9-ec3b2d59e1a5" />
 
+HALF SUBTRACTOR
 <img width="415" height="316" alt="half subractor" src="https://github.com/user-attachments/assets/126baf12-f1b0-4ba2-bf51-98444d191f07" />
 
 
@@ -57,42 +60,50 @@ Figure -02 HALF Subtractor
 
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-HALF ADDER
+HALF ADDER           
 
-module half_adder(sum, carry, a, b); 
-  output sum; 
-  output carry; 
-  input a; 
-  input b; 
-  assign sum = a ^ b; 
-  assign carry = a & b; 
-endmodule 
+module half_adder(sum, carry, a, b);     
+  output sum;      
+  output carry;        
+  input a;     
+  input b;      
+  assign sum = a ^ b;         
+  assign carry = a & b;       
+endmodule     
  
-HALF SUBTRACTOR
+HALF SUBTRACTOR          
 
-module half_subtractor(diff, borrow, a, b);
-  output diff;
-  output borrow;
-  input a;
-  input b;
-  assign diff = a ^ b;
-  assign borrow = ~a & b;
-endmodule
+module half_subtractor(diff, borrow, a, b);             
+  output diff;       
+  output borrow;     
+  input a;          
+  input b;         
+  assign diff = a ^ b;      
+  assign borrow = ~a & b;     
+endmodule      
 
 
-Developed by:DHARSHINI V
+Developed by:DHARSHINI V          
 
-RegisterNumber:25010872
+RegisterNumber:25010872         
 
 **RTL Schematic**
 
+HALF ADDER
+
 <img width="1920" height="1080" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/ba756b01-38df-46cf-a529-16f5c18ac407" />
+
+HALF SUBTRACTOR
 
 <img width="1920" height="1080" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/766651e9-af3d-44d9-8cdb-def517d8b8f3" />
 
 **Output/TIMING Waveform**
 
+HALF ADDER
+
 <img width="1920" height="1080" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/16190e92-2329-4c50-b29b-6cc2ea441500" />
+
+HALF SUBTRACTOR
 
 <img width="1920" height="1080" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/cadd4dd9-e90f-4254-95f9-886ff9f97ca1" />
 
